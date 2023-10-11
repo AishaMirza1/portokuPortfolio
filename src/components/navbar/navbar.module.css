@@ -1,0 +1,27 @@
+.navbar {
+  padding: 2rem 3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #07042f;
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+}
+.navbar ul {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  font-weight: 500;
+  width: 50rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: hover 3s ease;
+}
+.navbar a:-webkit-any-link:hover {
+  color: #281aef;
+}

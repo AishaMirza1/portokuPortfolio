@@ -1,0 +1,25 @@
+html {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins';
+}
+ul,
+ol {
+  list-style: none;
+}
+a:link {
+  text-decoration: none;
+}
+button:focus,
+button:focus-visible {
+  outline: none;
+}
+a:-webkit-any-link {
+  color: #07042f;
+  cursor: pointer;
+  text-decoration: none;
+}

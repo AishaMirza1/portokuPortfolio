@@ -1,0 +1,40 @@
+.cardSkill {
+  width: 57rem;
+  padding: 4rem;
+  background-color: #f4f4f6;
+  cursor: pointer;
+}
+.cardSkill:hover {
+  transition: 0.5s;
+  background-color: #07042f;
+}
+.cardSkill:hover p:nth-child(2) {
+  color: #fff;
+}
+.cardSkill:hover p:nth-child(3) {
+  color: #dedbfe;
+}
+.cardSkill,
+.skillLogo {
+  border-radius: 2.2rem;
+}
+.skillLogo {
+  width: 6.5rem;
+  height: 6.5rem;
+  margin-bottom: 2rem;
+  background-color: #dedbfe;
+}
+.cardSkill:hover .skillLogo {
+  background-color: #281aef;
+}
+.cardSkill p:nth-child(2) {
+  color: #07042f;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2.2rem;
+}
+.cardSkill p:nth-child(3) {
+  color: #656572;
+  font-size: 1.6rem;
+  line-height: 28px;
+}

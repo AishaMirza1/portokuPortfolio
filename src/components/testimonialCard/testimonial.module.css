@@ -1,0 +1,40 @@
+.testimonialCard {
+  width: 31.4rem;
+  background-color: #f4f4f6;
+  text-align: left;
+  padding: 2rem;
+  border-radius: 1.6rem;
+}
+.testimonialDis {
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  color: #07042f;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+.testimonialCard img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.testimonialCardDetails {
+  display: flex;
+  gap: 2rem;
+}
+.testimonialCardName {
+  font-size: 1.6rem;
+  color: #07042f;
+  margin-bottom: 0.4rem;
+  font-weight: 500;
+}
+.testimonialCardDis {
+  font-size: 1.4rem;
+  color: #656572;
+}
+
+@media (max-width: 700px) {
+  .testimonialCard {
+    width: 31.3rem;
+  }
+}
