@@ -16,3 +16,33 @@
   font-size: 16rem;
   line-height: 13rem;
 }
+.homeSkillsSection {
+  padding: 7rem 4rem 3rem 4rem;
+  text-align: left;
+  width: 100vw;
+}
+.homeSkillsSectionHeader p:nth-child(1) {
+  color: #281aef;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.homeSkillsSectionHeader p:nth-child(2) {
+  max-width: 45rem;
+  color: #07042f;
+  font-weight: bold;
+  font-size: 3.6rem;
+  line-height: 4.6rem;
+  margin-bottom: 4rem;
+}
+.skillGridContainer,
+.skillGridContainer2 {
+  padding: 0 4.5rem;
+  display: grid;
+  gap: 5rem;
+}
+.skillGridContainer {
+  grid-template-columns: 50% 40%;
+}
+.skillGridContainer2 {
+  grid-template-columns: 40% 50%;
+}
