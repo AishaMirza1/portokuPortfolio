@@ -1,5 +1,4 @@
 .homeHeader {
-  width: 100%;
   padding: 7rem 0;
   text-align: center;
 }
@@ -26,6 +25,7 @@
   font-weight: bold;
   font-size: 1.4rem;
 }
+
 .homeSkillsSectionHeader p:nth-child(2) {
   max-width: 45rem;
   color: #07042f;

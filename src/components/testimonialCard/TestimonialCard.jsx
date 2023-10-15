@@ -1,4 +1,4 @@
-import styles from './testimonial.module.css';
+import styles from './testimonialCard.module.css';
 
 export default function TestimonialCard() {
   return (

@@ -1,0 +1,27 @@
+.testimonialSection {
+  width: 100vw;
+  padding: 7rem 18rem 3rem 18rem;
+
+  text-align: center;
+}
+
+.testimonialSection div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.testimonialSection div span p:nth-child(1) {
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #281aef;
+}
+.testimonialSection div span p:nth-child(2) {
+  text-align: left;
+  font-weight: bold;
+  font-size: 3.6rem;
+  line-height: 4.6rem;
+  color: #07042f;
+  max-width: 50rem;
+  margin-bottom: 8rem;
+}

@@ -1,0 +1,50 @@
+.featuredWorkSection {
+  padding: 7rem 5rem;
+}
+.featuredWorkSectionHeader {
+  text-align: center;
+}
+.featuredWorkSectionHeader p:nth-child(1) {
+  color: #281aef;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.featuredWorkSectionHeader p:nth-child(2) {
+  color: #07042f;
+  font-size: 3.6rem;
+  line-height: 4.6rem;
+  font-weight: bold;
+  max-width: 50rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+.featuredWorkSection div:nth-child(2) {
+  background-color: #07042f;
+  font-size: 4.6rem;
+  line-height: 4.6rem;
+  font-weight: bold;
+  max-width: 80rem;
+  height: 30rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+.featuredWorkSectionStats {
+  margin: 3rem auto;
+  max-width: 40rem;
+}
+.featuredWorkSectionStats ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.featuredWorkSectionStats ul span {
+  color: #07042f;
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+.featuredWorkSectionStats ul p {
+  color: #656572;
+  font-size: 1.6rem;
+}

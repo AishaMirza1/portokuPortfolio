@@ -1,9 +1,12 @@
 .testimonialCard {
-  width: 31.4rem;
+  margin: 0 auto;
+  max-width: 70rem;
   background-color: #f4f4f6;
   text-align: left;
   padding: 2rem;
   border-radius: 1.6rem;
+  display: flex;
+  flex-direction: column;
 }
 .testimonialDis {
   font-size: 1.8rem;
