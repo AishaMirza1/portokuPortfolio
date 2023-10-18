@@ -48,3 +48,8 @@
   color: #656572;
   font-size: 1.6rem;
 }
+@media screen and (max-width: 1199px) and (min-width: 810px) {
+  .featuredWorkSection {
+    padding: 5rem 2rem 2rem 2rem;
+  }
+}

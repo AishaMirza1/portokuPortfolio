@@ -47,7 +47,7 @@
 }
 .footerLinks div:nth-child(2) ul li:nth-child(1) {
   font-size: 1.8rem;
-  color: #fff;
+  color: #848297;
   font-weight: 400;
 }
 .footerLinks div:nth-child(2) ul li {
@@ -57,4 +57,26 @@
   font-size: 1.6rem;
   color: #8a88a5;
   font-weight: 400;
+}
+@media screen and (max-width: 1199px) {
+  .footer {
+    padding: 10rem 0rem;
+  }
+  .footerLinks {
+    display: flex;
+    gap: 4rem;
+    flex-direction: column;
+    padding: 0rem 4rem;
+  }
+}
+@media screen and (max-width: 809px) {
+  .footerContactContainer p:nth-child(1) {
+    font-size: 2.8rem;
+    line-height: 3.8rem;
+    max-width: 30rem;
+  }
+  .footerLinks div:nth-child(1) p:nth-child(2) {
+    max-width: 45rem;
+    line-height: 2.8rem;
+  }
 }

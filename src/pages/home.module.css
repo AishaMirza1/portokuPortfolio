@@ -50,3 +50,28 @@
 .skillGridContainer2 {
   grid-template-columns: 40% 50%;
 }
+
+@media screen and (max-width: 1199px) {
+  .homeHeader {
+    padding: 5rem 0;
+  }
+  .homeHeader h1 {
+    font-size: 10rem;
+    line-height: 10rem;
+    max-width: 90rem;
+    margin: 7rem auto 7rem auto;
+  }
+  .homeSkillsSectionHeader p:nth-child(2) {
+    max-width: 2545rem;
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+}
+@media screen and (max-width: 809px) {
+  .homeHeader h1 {
+    font-size: 8;
+    line-height: 9rem;
+    margin-bottom: 7rem;
+    max-width: 80rem;
+  }
+}
