@@ -14,11 +14,15 @@
 .homeHeader h1 {
   font-size: 16rem;
   line-height: 13rem;
+  margin-bottom: 7rem;
 }
 .homeSkillsSection {
-  padding: 7rem 4rem 3rem 4rem;
+  padding: 7rem 9rem 3rem 9rem;
   text-align: left;
   width: 100vw;
+}
+.skillGridContainer {
+  margin: 0 auto;
 }
 .homeSkillsSectionHeader p:nth-child(1) {
   color: #281aef;

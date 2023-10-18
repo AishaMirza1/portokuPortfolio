@@ -1,6 +1,6 @@
-import Button from '../button/Button';
+import Button from '../../button/Button';
 import styles from './testimonial.module.css';
-import TestimonialCard from '../testimonialCard/TestimonialCard';
+import TestimonialCard from '../../testimonialCard/TestimonialCard';
 export default function Testimonial() {
   return (
     <section className={styles.testimonialSection}>

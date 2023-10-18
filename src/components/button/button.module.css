@@ -11,3 +11,9 @@
 .btn:hover {
   background-color: #281aef;
 }
+.btnPrimary {
+  background-color: #281aef;
+}
+.btnPrimary:hover {
+  background-color: #07042f;
+}
