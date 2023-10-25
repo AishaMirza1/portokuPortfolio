@@ -24,9 +24,22 @@
   max-width: 50rem;
   margin-bottom: 8rem;
 }
-@media screen and (max-width: 1199px) and (min-width: 810px) {
+@media screen and (max-width: 1199px) {
   .testimonialSection {
     padding: 5rem 12rem 2rem 12rem;
     text-align: center;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .testimonialSection {
+    padding: 7rem 8rem 3rem 8rem;
+  }
+  .testimonialSection button {
+    display: none;
+  }
+  .testimonialSection div span p:nth-child(2) {
+    font-size: 2.8rem;
+    line-height: 3.8rem;
+    max-width: 40rem;
   }
 }

@@ -74,4 +74,18 @@
     margin-bottom: 7rem;
     max-width: 80rem;
   }
+  .homeHeader p {
+    font-size: 2.7rem;
+  }
+  .homeSkillsSectionHeader p:nth-child(2) {
+    max-width: 40rem;
+    font-size: 3rem;
+    line-height: 4rem;
+    margin: 2rem 0 4rem 0;
+  }
+  .skillGridContainer,
+  .skillGridContainer2 {
+    padding: 0 4.5rem;
+    display: inline;
+  }
 }
