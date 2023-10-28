@@ -3,7 +3,7 @@ import styles from './testimonial.module.css';
 import TestimonialCard from '../../testimonialCard/TestimonialCard';
 export default function Testimonial() {
   return (
-    <section className={styles.testimonialSection}>
+    <section className={styles.testimonialSection} id="testimonial">
       <div>
         <span>
           <p>TESTIMONIALS</p>

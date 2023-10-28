@@ -1,8 +1,8 @@
-import CardSkill from '../cardSkill/CardSkill';
-import styles from '../../pages/home.module.css';
+import CardSkill from '../../cardSkill/CardSkill';
+import styles from '../../../pages/home.module.css';
 export default function SkillSection() {
   return (
-    <section className={styles.homeSkillsSection}>
+    <section className={styles.homeSkillsSection} id="skill">
       <div className={styles.homeSkillsSectionHeader}>
         <p>AM I UNICORN?</p>
         <p>UI/UX Design & Frontend Are My Skills</p>

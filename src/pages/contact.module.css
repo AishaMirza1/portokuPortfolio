@@ -1,0 +1,22 @@
+img {
+  width: 100px;
+}
+.contactPage {
+}
+.contactHeader {
+  font-weight: bold;
+  margin: 4rem 12rem;
+}
+.contactHeader p:nth-child(1) {
+  color: #281aef;
+  font-size: 1.4rem;
+}
+.contactHeader p:nth-child(2) {
+  color: #07042f;
+  font-size: 3.6rem;
+  line-height: 4.6rem;
+  max-width: 45rem;
+}
+.formContainer {
+  display: flex;
+}

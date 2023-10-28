@@ -1,0 +1,26 @@
+.faqSection {
+  text-align: center;
+}
+.faqHeader {
+  margin: 2rem 12rem;
+}
+
+.faqHeader p {
+  font-weight: bold;
+}
+.faqHeader p:nth-child(1) {
+  color: #281aef;
+  font-size: 1.4rem;
+}
+.faqHeader p:nth-child(2) {
+  color: #07042f;
+  font-size: 3.6rem;
+  line-height: 4.6rem;
+  max-width: 45rem;
+  margin: 2rem auto;
+}
+.faqCardContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

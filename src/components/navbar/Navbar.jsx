@@ -1,9 +1,9 @@
-import { NavLink } from 'react-router-dom';
-
 import styles from './navbar.module.css';
 import Button from '../button/Button';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useEffect, useState } from 'react';
+import { NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 export default function Navbar() {
   function getCurrentWidth() {
     return window.innerWidth;
@@ -25,7 +25,11 @@ export default function Navbar() {
     <nav className={styles.navbar}>
       <div>
         <div>
-          <h1>PORTOKU</h1>
+          <div>
+            <div className={styles.logo}></div>
+            <h1>PORTOKU</h1>
+          </div>
+
           <div className={styles.navContainer}>
             <div className={styles.btnContainer}>
               <motion.button
@@ -71,18 +75,20 @@ export default function Navbar() {
               exit="close"
             >
               <li>
-                <NavLink>Home</NavLink>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <NavLink>Skills</NavLink>
+                <HashLink to="/#skill">Skills</HashLink>
               </li>
               <li>
-                <NavLink>Portfolios</NavLink>
+                <HashLink to="/#portfolios">Portfolios</HashLink>
               </li>
               <li>
-                <NavLink>Testimonials</NavLink>
+                <NavLink to="/testimonials">Testimonial</NavLink>
               </li>
-              <Button>Hire Me</Button>
+              <NavLink to="/contact">
+                <Button>Hire Me</Button>
+              </NavLink>
             </motion.ul>
           </AnimatePresence>
         ) : (

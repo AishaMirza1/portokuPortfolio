@@ -1,14 +1,29 @@
 .navbar {
-  padding: 3rem 0rem;
-  position: sticky;
-  top: 0;
-  z-index: 99;
-  background-color: #fff;
+  padding: 2rem 3rem;
+  background-color: #fffffff0;
+  width: 100%;
+}
+.logo {
+  width: 21px;
+  height: 24px;
+  background-color: #07042f;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.logo::after {
+  content: '';
+  width: 16px;
+  height: 24px;
+  position: relative;
+  left: 40%;
+  background-color: #70deff;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .navbar div {
   display: flex;
   justify-content: space-between;
-  margin: 0rem 2rem;
+  margin: 0 1rem;
 }
 .btnContainer button {
   display: flex;
@@ -54,7 +69,7 @@
 }
 @media screen and (max-width: 809px) {
   .navbar {
-    padding: 3rem 5rem;
+    padding: 2rem 0rem;
     justify-content: baseline;
     align-items: baseline;
   }

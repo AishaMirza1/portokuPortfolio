@@ -1,7 +1,8 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import ButtonPrimary from '../../button/ButtonPrimary';
 import styles from './footer.module.css';
 import LogosMarquee from '../../logosMarquee/LogosMarquee';
+import { HashLink } from 'react-router-hash-link';
 export default function Footer() {
   return (
     <section className={styles.footer}>
@@ -15,7 +16,9 @@ export default function Footer() {
             Memulai sebuah projek dengan riset dan memvalidasi ideas dengan
             usability-testing agar maksimal.
           </p>
-          <ButtonPrimary>Hire Me</ButtonPrimary>
+          <NavLink to="/contact">
+            <ButtonPrimary>Hire Me Now</ButtonPrimary>
+          </NavLink>
         </div>
         <LogosMarquee />
       </div>
@@ -28,37 +31,37 @@ export default function Footer() {
           <ul>
             <li>useful Links</li>
             <li>
-              <Link>
+              <HashLink to="/#portfolios">
                 <span>Portfilio</span>
-              </Link>
+              </HashLink>
             </li>
             <li>
-              <Link>
+              <NavLink to="/testimonials">
                 <span>Testimonials</span>
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link>
+              <HashLink to="/#skill">
                 <span>My Skills</span>
-              </Link>
+              </HashLink>
             </li>
           </ul>
           <ul>
             <li>Contack Me</li>
             <li>
-              <Link>
+              <HashLink to="/">
                 <span>@burhan</span>
-              </Link>
+              </HashLink>
             </li>
             <li>
-              <Link>
+              <HashLink to="/">
                 <span>team@bwa.com</span>
-              </Link>
+              </HashLink>
             </li>
             <li>
-              <Link>
+              <HashLink to="">
                 <span>+123 456000</span>
-              </Link>
+              </HashLink>
             </li>
           </ul>
         </div>

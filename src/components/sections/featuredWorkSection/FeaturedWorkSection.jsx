@@ -1,7 +1,7 @@
 import styles from './featuredWorkSection.module.css';
 export default function FeaturedWorkSection() {
   return (
-    <section className={styles.featuredWorkSection}>
+    <section className={styles.featuredWorkSection} id="portfolios">
       <div className={styles.featuredWorkSectionHeader}>
         <p>FEATURED WORK</p>
         <p>I&apos;ve Contributed Efforts to Achieve Bigger Results</p>

@@ -1,0 +1,28 @@
+.faqCard {
+  width: 60rem;
+  background-color: #ebebeb;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+  padding: 2rem 3rem;
+}
+.faqCard p {
+  color: #07042f;
+}
+.faqCard div {
+  display: flex;
+  justify-content: space-between;
+}
+.faqCard div svg {
+  width: 2.4rem;
+  height: 3.6rem;
+}
+.question {
+  font-size: 2rem;
+  line-height: 2.6rem;
+  font-weight: 400;
+}
+.answer {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: red;
+}

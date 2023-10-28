@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 * {
   margin: 0;
@@ -11,6 +12,9 @@ body {
   width: 100vw;
   height: auto;
   overflow-x: hidden;
+}
+textarea {
+  resize: none;
 }
 ul,
 ol {
