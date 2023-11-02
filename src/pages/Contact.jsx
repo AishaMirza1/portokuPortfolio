@@ -6,6 +6,7 @@ import Button from '../components/button/Button';
 import img1 from '../assets/imgs/img1.avif';
 import img2 from '../assets/imgs/img1.avif';
 import img3 from '../assets/imgs/img1.avif';
+import GoToTop from '../components/GoToTop';
 export default function Contact() {
   return (
     <div className={styles.contactPage}>
@@ -28,10 +29,8 @@ export default function Contact() {
               <Button type="submit">Send Message</Button>
             </form>
             <div className={styles.imgGridContainer}>
-              <div>
-                <img src={img1} />
-                <img src={img2} />
-              </div>
+              <img src={img1} />
+              <img src={img2} />
               <img src={img3} />
             </div>
           </div>
@@ -39,6 +38,7 @@ export default function Contact() {
       </div>
       <FaqSection />
       <Footer />
+      <GoToTop />
     </div>
   );
 }

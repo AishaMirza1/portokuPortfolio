@@ -3,6 +3,7 @@ import styles from './testimonial.module.css';
 import TestimonialCard from '../components/testimonialCard/TestimonialCard';
 import FaqSection from '../components/sections/faqSection/Faq';
 import Footer from '../components/sections/footer/Footer';
+import GoToTop from '../components/GoToTop';
 export default function Testimonials() {
   return (
     <div>
@@ -22,6 +23,7 @@ export default function Testimonials() {
 
       <FaqSection />
       <Footer />
+      <GoToTop />
     </div>
   );
 }
